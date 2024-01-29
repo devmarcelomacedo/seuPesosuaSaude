@@ -6,7 +6,13 @@ main {
     align-items: center;
 }
 
-.container{
+body {
+    background: linear-gradient(
+            to left, #333, #333 50%,
+            #eee 75%, #333 75%);
+}
+
+.container {
     display: flex;
     flex-direction: column;
     background: rgb(148, 212, 238);
@@ -43,11 +49,12 @@ main {
     border: none;
     outline: 0;
     font: bold 1.2rem serif;
+    color: rgb(51, 6, 252);
     text-align: center;
 }
 
-.input label{
-    font: bold 1.5rem  serif;
+.input label {
+    font: bold 1.5rem serif;
 }
 
 button {
