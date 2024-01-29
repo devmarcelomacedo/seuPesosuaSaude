@@ -42,7 +42,7 @@ main {
     border-radius: 7px;
     border: none;
     outline: 0;
-    font: bold serif;
+    font: bold 1.2rem serif;
     text-align: center;
 }
 
